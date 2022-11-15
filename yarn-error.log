@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init -W
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\abelp\bin;C:\Program Files\Google\Chrome\Application;C:\Python310\Scripts;C:\Python310;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python38\Scripts;C:\Python38;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet;C:\Program Files (x86)\Yarn\bin;C:\Ruby27-x64\bin;C:\Users\abelp\AppData\Local\Microsoft\WindowsApps;C:\Users\abelp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abelp\AppData\Roaming\npm;C:\Users\abelp\.deno\bin;C:\Users\abelp\AppData\Local\GitHubDesktop\bin;C:\Users\abelp\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files (x86)\Local\resources\extraResources\lightning-services\php-7.3.5+10\bin\win64;C:\Users\abelp\AppData\Roaming\Composer\vendor\bin;C:\adb;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Go\bin;C:\Program Files\Meld;C:\Program Files\nodejs;%PNPM_HOME%;C:\Users\abelp\scoop\shims;C:\Ruby27-x64\bin;C:\Users\abelp\AppData\Local\Microsoft\WindowsApps;C:\Users\abelp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abelp\.deno\bin;C:\Users\abelp\AppData\Local\GitHubDesktop\bin;C:\Users\abelp\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files (x86)\Local\resources\extraResources\lightning-services\php-7.3.5+10\bin\win64;C:\Users\abelp\AppData\Roaming\Composer\vendor\bin;C:\Users\abelp\go\bin;C:\Users\abelp\AppData\Local\Nueva carpeta\bin;C:\Users\abelp\AppData\Local\Microsoft\WindowsApps;C:\Users\abelp\AppData\Local\Keybase;C:\Users\abelp\AppData\Local\Programs\Hyper\resources\bin;C:\Users\abelp\go\bin;C:\Users\abelp\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137009:13)
+      at Interface.emit (node:events:513:28)
+      at Interface._ttyWrite (node:readline:1085:16)
+      at ReadStream.onkeypress (node:readline:291:10)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
