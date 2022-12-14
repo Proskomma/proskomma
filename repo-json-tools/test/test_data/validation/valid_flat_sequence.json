@@ -1,0 +1,93 @@
+{
+  "type": "main",
+  "blocks": [
+    {
+      "type": "graft",
+      "subtype": "title",
+      "target": "M2JhMzg3NzQt"
+    },
+    {
+      "type": "graft",
+      "subtype": "introduction",
+      "new": true
+    },
+    {
+      "type": "paragraph",
+      "subtype": "usfm:p",
+      "content": [
+        {
+          "type": "mark",
+          "subtype": "chapter",
+          "atts": {
+            "number": "1"
+          }
+        },
+        {
+          "type": "mark",
+          "subtype": "verses",
+          "atts": {
+            "number": "1"
+          }
+        },
+        "La parole de",
+        {
+          "type": "wrapper",
+          "subtype": "usfm:nd",
+          "content": [
+            "l’Éternel"
+          ],
+          "meta_content": [
+            {
+              "type": "mark",
+              "subtype": "warning:typesetChecks",
+              "content": [
+                "Expected all-caps or small-caps for name of deity"
+              ]
+            }
+          ]
+        },
+        " fut ",
+        {
+          "type": "wrapper",
+          "subtype": "meta_content",
+          "meta_content": [
+            {
+              "type": "mark",
+              "subtype": "warning:spellChecks",
+              "atts": {
+                "correction_proposals": [
+                  "adressée",
+                  "adressé"
+                ]
+              }
+            }
+          ],
+          "content": [
+            "adresssée"
+          ]
+        },
+        {
+          "type": "graft",
+          "subtype": "xref",
+          "new": true
+        },
+        " à ",
+        {
+          "type": "start_milestone",
+          "subtype": "x-proper-noun-phrase"
+        },
+        "Jonas, fils d’Amitthaï",
+        {
+          "type": "graft",
+          "subtype": "footnote",
+          "target": "M2JhMzg3NzQt"
+        },
+        {
+          "type": "end_milestone",
+          "subtype": "x-proper-noun-phrase"
+        },
+        ", en ces mots: "
+      ]
+    }
+  ]
+}
