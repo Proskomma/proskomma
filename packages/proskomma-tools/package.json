@@ -1,5 +1,5 @@
 {
-  "name": "proskomma-tools",
+  "name": "@proskomma/tools",
   "version": "0.0.5",
   "description": "Helpers to use when building projects around Proskomma",
   "main": "dist/index.js",
